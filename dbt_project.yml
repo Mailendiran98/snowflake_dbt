@@ -1,0 +1,2 @@
+name: "snowflake_dbt_project"
+model-paths: ["sql_models"]
