@@ -1,0 +1,25 @@
+
+sources:
+  - name: "ecomm_source"
+    database: DB_ECOMM
+    schema : SC_ECOMM
+    tables:
+      - name: USERS
+      - name: products
+
+
+
+
+models:
+  - name: "mailendiran"
+    config:
+      materialized: "table"
+  - name: "mailendiran2"
+    config:
+      materialized: "table"
+  - name: "mailendiran_v2"
+    config:
+      materialized: "view"
+  - name: "dim_country"
+    config:
+      materialized: "table"

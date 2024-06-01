@@ -1,0 +1,1 @@
+SELECT * FROM {{source("ecomm_source","USERS")}}

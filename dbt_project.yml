@@ -1,2 +1,4 @@
 name: "snowflake_dbt_project"
-model-paths: ["sql_models"]
+model-paths: ["models"]
+seed-paths: ["seeds"]
+analysis-paths: ["analyses"]
